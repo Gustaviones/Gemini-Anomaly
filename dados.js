@@ -90,9 +90,9 @@ let dados = [
         Aparência_física : "Erro: É uma Anomalia realmente assustadora, ela brinca com o medo de suas vitimas, tornando assim a propria mente delas em sua maior arma.",
         Tamanho : "Erro: O medo pelo que não se entende sempre vai existir na humanidade, o novo pode ser assustador.",
         Habilidades : "Erro: Você sente medo pelo que esta descobrindo?",
-        Fraquezas : "Erro: talvez fosse melhor você não saber do que esse mundo esconde, entender mais sobre elas, te deixa mais aliviado? ou mais assustado?",
-        Nível_de_inteligência : "Erro: E se uma delas estivesse atrás de você agora? você preferiria não sabe?",
-        Alimentação : "Erro: Não se preocupa",
+        Fraquezas : "Erro: talvez fosse melhor você não saber o que esse mundo esconde, entender mais sobre elas, te deixa mais aliviado? ou mais assustado?",
+        Nível_de_inteligência : "Erro: E se uma delas estivesse atrás de você agora? você preferiria não saber?",
+        Alimentação : "Erro: Não se preocupe",
         Observações : "Erro: Você definitivamente não ta sozihno",
         Possíveis_Encontros : "Erro: Pesquise: T-e-m-p-e-s-t-a-d-e",
     },
@@ -107,7 +107,7 @@ let dados = [
         Nível_de_inteligência : "Nível de inteligência: alta, assim como a de um corvo.",
         Alimentação : "Alimentação: Eletricidade.",
         Observações : "Observações: O Tempestade Alada sempre voa em uma altitude elevada, então encontra-lo em terra firme é impossivel. Uma tempestade sempre o acompanha onde quer que ele vá. O Tempestade Alada é bem territorial, ja derrubou diversos aviões que tiveram o azar de cruzar com ele nos céus. Sempre que alguma de suas presas cai em águas profundas ele vai embora, parece não gostar de água.",
-        Possíveis_Encontros : "Possíveis Encontros: Altitudes muito altas: voando onde apenas aviões podem chegar. Centro de Tempestades: ele é sempre perceguido por uma tempestade, o motivo disso é desconhecido. ERRO: PESQUISE: C-A-R-G-A",
+        Possíveis_Encontros : "Possíveis Encontros: Altitudes muito altas: voando onde apenas aviões podem chegar. Centro de Tempestades: ele é sempre perseguido por uma tempestade, o motivo disso é desconhecido. ERRO: PESQUISE: C-A-R-G-A",
     },
 
     {
