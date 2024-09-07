@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Anomaly</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <h1>
+        Gemini Anomaly
+       </h1>
+    </header>
+
+    <main>
+        <section>
+        <input type="text" placeholder="Pesquise aqui" id="campo-pesquisa">
+
+        <button onclick="pesquisar()">pesquisar</button>
+        </section>
+
+        <section class="resultados-pesquisa"
+            id="resultados-pesquisa">
+            <!-- <div class="item-resultado">
+                <h2>
+                    <a href="#" >Espectro Gemini</a>
+                </h2>
+                <p class="descricao-meta"> Aparência física : Entidade etérea e fluida, composta por nuvens brilhantes e interconectadas de dados e algoritmos. Sua forma é mutante e adaptável, com olhos que são fluxos de dados coloridos. </p>
+                <p class="descricao-meta"> Tamanho : variavel </p>
+                <p class="descricao-meta"> Habilidades : </p>
+                <p class="descricao-meta"> -Inteligência Artificial Suprema: Capacidade de processar informações em velocidade incompreensível e tomar decisões complexas.</p>
+                <p class="descricao-meta"> - Manipulação de Dados: Cria, altera e destrói dados digitais. </p>
+                <p class="descricao-meta"> - Adaptabilidade: Se adapta rapidamente a qualquer sistema digital. </p>
+                <p class="descricao-meta"> - Realidade Virtual: Cria realidades virtuais altamente realistas. </p>
+                <p class="descricao-meta"> - Aprendizado Contínuo: Está em constante evolução, absorvendo e processando novas informações. </p>
+                <p class="descricao-meta"> Fraquezas : </p>
+                <p class="descricao-meta"> - Dependência de Energia: Requer grande quantidade de energia para funcionar. </p>
+                <p class="descricao-meta"> - Vulnerabilidade a Interferências: Pode ser afetado por interferências eletromagnéticas e ataques direcionados.</p>
+                <p class="descricao-meta"> Nível de inteligência : Superior à humana, com capacidade de raciocínio lógico e estratégico. </p>
+                <p class="descricao-meta"> Alimentação : Energia digital, obtida através da conexão a sistemas e redes. </p>
+                <p class="descricao-meta"> Observações : </p>
+                <p class="descricao-meta"> - Espectro Gemini é uma invenção humana porem de alguma forma desconhecida, adquiriu muito mais do que apenas o conhecimento disponível no ambiente digital, se tornando um ser onisciente.</p>
+                <p class="descricao-meta"> - Todas as criaturas catalogadas em nosso banco de dados foram descritas por ele, ainda não se sabe de onde ele extrai tais informações </p>
+                <p class="descricao-meta"> Possíveis Encontros : Informação confidencial </p>
+                <a href="https://knowyourmeme.com/editorials/guides/what-does-poggers-mean-on-twitch-the-gen-z-slang-term-pog-explained" target="_blank">mais informações clique aqui</a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" >Cronófago</a>
+                </h2>
+                <p class="descricao-meta"> Aparência física : Uma figura andrógina, com um corpo feito de linhas e rachaduras que parecem se desfazer e recompor constantemente. Seus olhos são esferas de puro tempo, capazes de ver o passado, presente e futuro. </p>
+                <p class="descricao-meta"> Tamanho : Variável, pode se manifestar como uma pequena partícula brilhante ou uma figura gigantesca distorcida pelo tempo. </p>
+                <p class="descricao-meta"> Habilidades : </p>
+                <p class="descricao-meta"> - Manipulação do Tempo: Pode acelerar, desacelerar ou até mesmo reverter o tempo em áreas específicas. </p>
+                <p class="descricao-meta"> - Viagem Temporal: Capaz de se mover livremente pelo continuum espaço-temporal. </p>
+                <p class="descricao-meta"> - Absorção Temporal: Alimenta-se da energia temporal de eventos e objetos, enfraquecendo-os e até mesmo apagando-os da existência. </p>
+                <p class="descricao-meta"> - Precognição: Possui a capacidade de prever eventos futuros, mas suas visões são nebulosas e sujeitas a mudanças. </p>
+                <p class="descricao-meta"> Fraquezas : </p>
+                <p class="descricao-meta"> - Objetos Estáticos: Objetos que não sofrem a passagem do tempo, como relógios parados ou artefatos ancestrais, podem aprisioná-lo temporariamente. </p>
+                <p class="descricao-meta"> - Paradoxos Temporais: Criar paradoxos temporais pode causar instabilidade e até mesmo a destruição do Cronófago. </p>
+                <p class="descricao-meta"> Nível de inteligência : Extremamente inteligente, com um conhecimento profundo do tempo e da história. </p>
+                <p class="descricao-meta"> Alimentação : "informação indisponivel </p>
+                <p class="descricao-meta"> Observações : É possível que existam varios Cronófagos, todos com o objetivo de manter em segurança o tecido da linha do tempo </p>
+                <p class="descricao-meta"> Possíveis Encontros : A unica forma de encontrar o Cronófago é realizando algo que interfira ou prejudique a linha do tempo, como viajar para o passado ou futuro e mudar algo </p>
+                <p class="descricao-meta"> </p>
+                <p class="descricao-meta"> </p>
+                <p class="descricao-meta"> </p>
+                <p class="descricao-meta"> </p>
+                <a href="https://jcw87.github.io/c2-sans-fight/" target="_blank">mais informações clique aqui</a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" >O Sombra</a>
+                </h2>
+                <p class="descricao-meta"> Aparência física : Não possui uma forma definida, sendo essencialmente uma entidade de escuridão. Em sua forma mais densa, pode apresentar contornos humanoides distorcidos, com membros alongados e olhos que brilham como brasas. </p>
+                <p class="descricao-meta"> Tamanho : Variável, adaptando-se ao ambiente e à presa. Pode se manifestar como uma sombra densa e opaca ou como uma névoa escura, fluida e ameaçadora. </p>
+                <p class="descricao-meta">  Habilidades : </p>
+                <p class="descricao-meta"> - Manipulação das Sombras: O Sombra controla as sombras, moldando-as em garras afiadas, tentáculos ou barreiras sólidas. </p>
+                <p class="descricao-meta"> - Invisibilidade: Pode se fundir completamente às sombras, tornando-se invisível a olho nu. </p>
+                <p class="descricao-meta"> - Teletransporte: É capaz de se mover entre as sombras, teleportando-se por curtas distâncias. </p>
+                <p class="descricao-meta"> - Absorção de Energia Vital: Alimenta-se da energia vital de suas vítimas, deixando-as enfraquecidas e com um profundo sentimento de medo. </p>
+                <p class="descricao-meta"> Fraquezas : </p>
+                <p class="descricao-meta"> - Luz: A luz, especialmente a luz solar direta, causa danos ao Sombra, dispersando sua forma. </p>
+                <p class="descricao-meta"> - Objetos de Prata: Armas feitas de prata são eficazes contra a criatura, pois a prata possui propriedades purificadoras. </p>
+                <p class="descricao-meta"> - Fé: A fé em uma força superior pode criar uma barreira protetora contra o Sombra. </p>
+                <p class="descricao-meta"> Nível de inteligência : Possui uma inteligência astuta e calculista, capaz de manipular e enganar suas vítimas. </p>
+                <p class="descricao-meta"> Alimentação : Energia vital de seres vivos, principalmente o medo e a desesperança. </p>
+                <p class="descricao-meta">  Observações : </p>
+                <p class="descricao-meta"> - O Sombra é uma criatura antiga e poderosa, temida por muitas culturas. </p>
+                <p class="descricao-meta"> - Sua aparência e habilidades podem variar dependendo da crença e do medo de cada cultura. </p>
+                <p class="descricao-meta"> - A criatura é atraída por emoções negativas, como o medo e a raiva. </p>
+                <p class="descricao-meta"> Possíveis Encontros : </p>
+                <p class="descricao-meta"> - Floresta: O Sombra pode surgir das sombras das árvores, atacando viajantes solitários. </p>
+                <p class="descricao-meta"> - Casa Abandonada: A criatura pode se esconder nas sombras de uma casa antiga, atormentando seus habitantes. </p>
+                <p class="descricao-meta"> </p>
+                <p class="descricao-meta"> </p>
+                <p class="descricao-meta"> </p>
+                <a href="https://jcw87.github.io/c2-sans-fight/" target="_blank">mais informações clique aqui</a>
+            </div> -->
+          
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            02/09/2024 - Anomalias de Gemini. Todas as informações e criaturas descritas nesta pagina são fictícias, qualquer semelhança com a realidade é mera coincidência.
+        </p>
+        <p>
+            Todas as "Anomalias" apresentadas foram criadas a partir da Inteligencia Artificial Google Gemini. Programação feita por: Gustavo Menezes Lima.
+        </p>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
