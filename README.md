@@ -1,4 +1,4 @@
-## **README.md Descontraído para o seu Projeto de Anomalias**
+## Gemini Anomaly - Imersão Dev com Google Gemini
 
 ### **O que é essa bagaça?**
 
